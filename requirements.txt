@@ -1,0 +1,14 @@
+tensorflow==2.6.0
+scikit-learn==1.0.2
+pandas==1.4.2
+keras==2.6.0
+Keras-Preprocessing==1.1.2
+scipy==1.8.0
+youtube_dl== 2021.12.17
+google==2.0.3
+IPython==5.5.0
+cv2==4.1.2
+albumentations==1.1.0
+PIL==7.1.2
+matplotlib==3.2.2
+
