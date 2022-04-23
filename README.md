@@ -2,7 +2,7 @@
 # AI Ball Bounce Detector
 By Aditya Patel and Sharadwata Ganguli
 
-## <a href="https://github.com/adityahpatel/milestone2_dating_and_beauty/blob/main/25-cwestend-adityahp%20Benchmarking%20Facial%20Beauty%20Predictors.pdf">Read the PDF report here</a>
+## <a href="https://github.com/adityahpatel/milestone2_dating_and_beauty/blob/main/25-cwestend-adityahp%20Benchmarking%20Facial%20Beauty%20Predictors.pdf">Read the published report here</a>
 
 
 
