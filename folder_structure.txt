@@ -1,0 +1,21 @@
+Ensure the following folder structure in the working directory where all notebooks are stored -->
+
+-Module1_Video_downloading_and_Frame_extraction
+--extracted_frames
+---amateur
+---professional
+--video
+
+-Module2_Object_Detection_Yolov4_tiny
+--images_labels
+--INPUT_to_detection
+--OUTPUT_from_detection
+--SAVED_performance_charts
+--SAVED_training_weights
+--training
+--ZIPPED_images_labels
+
+-Module3_Bounce_Detection
+--input_frames
+--labeled_frames
+
