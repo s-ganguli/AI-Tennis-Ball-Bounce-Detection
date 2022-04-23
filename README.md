@@ -4,8 +4,6 @@ By Aditya Patel and Sharadwata Ganguli
 
 ## <a href="https://github.com/adityahpatel/milestone2_dating_and_beauty/blob/main/25-cwestend-adityahp%20Benchmarking%20Facial%20Beauty%20Predictors.pdf">Read the PDF report here</a>
 
-We set out to explore and benchmark the visual recognition problem of Facial Beauty Prediction (FBP), assessing facial attractiveness that is consistent with human perception. Such a FPB model can be used by online dating companies as a dating profile recommender.
-
 The notebooks need to be run in sequence (only after the folder structure is created as per details present in the folder_structure.txt file and the environment is built as per the requirements.txt file):
 •	Module1
 o	Module1_Step1_Downloading_from_youtube.ipynb
