@@ -24,8 +24,8 @@ Extract all frames from these videos <br>
 <a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step1b_Annotated_Images_proam_504_original%2Blabeled_aug.ipynb![image](https://user-images.githubusercontent.com/32350477/164958306-ae91f521-9930-48c7-a63b-9855da5944ad.png)
 ">Module2_Step1b_Annotated_Images_proam_504_original+labeled_aug.ipynb </a> <br>
 <a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step1c_Annotated_Images_proam_1008_original%2Blabeled_aug.ipynb![image](https://user-images.githubusercontent.com/32350477/164958464-6ef7e136-7580-4d13-8a72-49c721ee22f4.png)
-">Module2_Step1c_Annotated_Images_proam_1008_original+labeled_aug.ipynb</a> <br>
-    * Augment the images sets of 256, 504 and 1008 original images to 887, 1764 and 3525 original + augmented images respectively<br><br>
+">Module2_Step1c_Annotated_Images_proam_1008_original+labeled_aug.ipynb</a> 
+    * Augment the images sets of 256, 504 and 1008 original images to 887, 1764 and 3525 original + augmented images respectively
 * <a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step2b_Custom_training_YOLOv4-tiny_proam_256_labeledaug3x.ipynb![image](https://user-images.githubusercontent.com/32350477/164958561-30fbe48f-931c-4226-8822-d4e45e189536.png)
 ">Module2_Step2b_Custom_training_YOLOv4-tiny_proam_256_labeledaug3x.ipynb</a> <br>
 <a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step2d_Custom_training_YOLOv4-tiny_proam_504_labeledaug3x.ipynb">Module2_Step2d_Custom_training_YOLOv4-tiny_proam_504_labeledaug3x.ipynb</a><br>
