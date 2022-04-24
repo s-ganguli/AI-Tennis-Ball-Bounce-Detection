@@ -25,8 +25,10 @@ Extract all frames from these videos <br>
 ### Module3: Bounce Detection
 * Module3_Step1_Video_Frame_Object_Detection.ipynb<br>
     * For a standard professional tennis match video execute Module 1 (Frame Extraction from video) and Object Detection to provide a set of text files containing the coordinates of the detected tennis ball across extracted frames.
-* Module3_Step2_Video_Frame_Object_Detection.ipynb<br>
-    * For a standard professional tennis match video execute Module 1 (Frame Extraction from video) and Object Detection to provide a set of text files containing the coordinates of the detected tennis ball across extracted frames.
+* Module3_Step2_Bounce_detector_preprocessing.ipynb<br>
+    * Extracts the ball coordinates from each of the thousands of text files corresponding to individual image and pushes them to a new csv file called model2input.csv
+* Module3_Step3_Bounce_detector_final.ipynb<br>
+    * Extracts the ball coordinates from each of the thousands of text files corresponding to individual image and pushes them to a new csv file called model2input.csv
 
 
 
