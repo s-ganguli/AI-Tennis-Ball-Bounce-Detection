@@ -2,7 +2,7 @@
 # AI Ball Bounce Detector
 By Aditya Patel and Sharadwata Ganguli
 
-## <a href="https://docs.google.com/document/d/139g3GrHORgFq0me-LvEqNp8muuCS_uDl_a-Jtq2P2SY/edit"> Project report here</a>
+## <a href="https://docs.google.com/document/u/1/d/e/2PACX-1vRt3rCBcBjw2aYzvao5-FeXAx1ldeilFjNOLuC6dY-Qf1SoPQN6-euh-VaNs7SKJ8AYtAEyZuuMRKjc/pub"> Project report here</a>
 
 The notebooks need to be run in sequence (only after the folder structure is created as per details present in the folder_structure.txt file and the environment is built as per the requirements.txt file):
 
