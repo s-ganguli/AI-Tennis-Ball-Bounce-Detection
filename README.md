@@ -23,6 +23,9 @@ Extract all frames from these videos <br>
 ">Module2_Step1a_Annotated_Images_proam_256_original+labeled_aug.ipynb![image](https://user-images.githubusercontent.com/32350477/164958248-1927423c-21e8-4625-bf14-7b010904598c.png)
 </a> <br>
 
+<a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step1b_Annotated_Images_proam_504_original%2Blabeled_aug.ipynb![image](https://user-images.githubusercontent.com/32350477/164958306-ae91f521-9930-48c7-a63b-9855da5944ad.png)
+">Module2_Step1b_Annotated_Images_proam_504_original%2Blabeled_aug.ipynb </a> <br>
+
 Module2_Step1b_Annotated_Images_proam_504_original+labeled_aug.ipynb, Module2_Step1c_Annotated_Images_proam_1008_original+labeled_aug.ipynb<br>
     * Augment the images sets of 256, 504 and 1008 original images to 887, 1764 and 3525 original + augmented images respectively<br><br>
 * Module2_Step2b_Custom_training_YOLOv4-tiny_proam_256_labeledaug3x.ipynb,<br> Module2_Step2d_Custom_training_YOLOv4-tiny_proam_504_labeledaug3x.ipynb,<br> Module2_Step2e_Custom_training_YOLOv4-tiny_proam_1008_labeledaug3x.ipynb,<br> Module2_Step2g_Custom_training_YOLOv4-tiny_proam_1008_labeledaug3x_1664res.ipynb
