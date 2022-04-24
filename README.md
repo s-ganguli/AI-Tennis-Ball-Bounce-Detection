@@ -8,9 +8,11 @@ The notebooks need to be run in sequence (only after the folder structure is cre
 
 
 ### Module 1: Data Collection
-* Module1_Step1_Downloading_from_youtube.ipynb <br>
+* <a href="https://github.com/adityahpatel/Capstone/blob/main/Module1_Step1_Downloading_from_youtube.ipynb![image](https://user-images.githubusercontent.com/32350477/164957806-2d39befe-7aeb-455a-987d-0cb50a87fd8e.png)
+">Module1_Step1_Downloading_from_youtube.ipynb</a> <br>
   Download tennis match videos (4 professional and 4 amateur short tennis matches under a variety of conditions like different court surface, different camera angle and different lighting)
-* Module1_Step2_Image_for_Annotation.ipynb <br>
+* <a href="https://github.com/adityahpatel/Capstone/blob/main/Module1_Step2_Image_for_Annotation.ipynb![image](https://user-images.githubusercontent.com/32350477/164957864-21e682c7-8a8f-41aa-a065-16725597df09.png)
+">Module1_Step2_Image_for_Annotation.ipynb</a> <br>
 Extract all frames from these videos <br>
 
 ### Manual step
@@ -29,11 +31,6 @@ Extract all frames from these videos <br>
     * Extracts the ball coordinates from each of the thousands of text files corresponding to individual image and pushes them to a new csv file called model2_inputdata.csv
 * Module3_Step3_Bounce_detector_final.ipynb<br>
     * Takes as input the model2_inputdata.csv created in the previous step and performs bounce detection. i.e. given a window of 10 frames, predicts whether a ball bounce occured in that window or not!
-
-
-
-
-
 
 
 
