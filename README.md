@@ -24,30 +24,23 @@ Extract all frames from these videos <br>
 <a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step1b_Annotated_Images_proam_504_original%2Blabeled_aug.ipynb![image](https://user-images.githubusercontent.com/32350477/164958306-ae91f521-9930-48c7-a63b-9855da5944ad.png)
 ">Module2_Step1b_Annotated_Images_proam_504_original+labeled_aug.ipynb </a> <br>
 <a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step1c_Annotated_Images_proam_1008_original%2Blabeled_aug.ipynb![image](https://user-images.githubusercontent.com/32350477/164958464-6ef7e136-7580-4d13-8a72-49c721ee22f4.png)
-">Module2_Step1c_Annotated_Images_proam_1008_original+labeled_aug.ipynb</a><br>
+">Module2_Step1c_Annotated_Images_proam_1008_original+labeled_aug.ipynb</a> <br>
     * Augment the images sets of 256, 504 and 1008 original images to 887, 1764 and 3525 original + augmented images respectively<br><br>
-* Module2_Step2b_Custom_training_YOLOv4-tiny_proam_256_labeledaug3x.ipynb,<br> Module2_Step2d_Custom_training_YOLOv4-tiny_proam_504_labeledaug3x.ipynb,<br> Module2_Step2e_Custom_training_YOLOv4-tiny_proam_1008_labeledaug3x.ipynb,<br> Module2_Step2g_Custom_training_YOLOv4-tiny_proam_1008_labeledaug3x_1664res.ipynb
+* <a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step2b_Custom_training_YOLOv4-tiny_proam_256_labeledaug3x.ipynb![image](https://user-images.githubusercontent.com/32350477/164958561-30fbe48f-931c-4226-8822-d4e45e189536.png)
+">Module2_Step2b_Custom_training_YOLOv4-tiny_proam_256_labeledaug3x.ipynb</a> <br>
+<a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step2d_Custom_training_YOLOv4-tiny_proam_504_labeledaug3x.ipynb">Module2_Step2d_Custom_training_YOLOv4-tiny_proam_504_labeledaug3x.ipynb</a><br>
+<a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step2e_Custom_training_YOLOv4-tiny_proam_1008_labeledaug3x.ipynb">Module2_Step2e_Custom_training_YOLOv4-tiny_proam_1008_labeledaug3x.ipynb</a><br>
+<a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step2g_Custom_training_YOLOv4-tiny_proam_1008_labeledaug3x_1664res.ipynb">Module2_Step2g_Custom_training_YOLOv4-tiny_proam_1008_labeledaug3x_1664res.ipynb</a><br>
+
+
+
     * Train YOLOv4-tiny object detection model on all 3 original +augmented images set.
     * Increase network resolution from 416 to 1664 to be able to detect tennis ball at far end of the court as well as achieve performance of 93.9% on mAP@0.50. This is the 3,525 image set model trained on 1664 resolution and is the selected object detection model.
+
 ### Module3: Bounce Detection
-* Module3_Step1_Video_Frame_Object_Detection.ipynb<br>
+* <a href="https://github.com/adityahpatel/Capstone/blob/main/Module3_Step1_Video_Frame_Object_Detection.ipynb">Module3_Step1_Video_Frame_Object_Detection.ipynb</a><br>
     * For a standard professional tennis match video execute Module 1 (Frame Extraction from video) and Object Detection to provide a set of text files containing the coordinates of the detected tennis ball across extracted frames.
-* Module3_Step2_Bounce_detector_preprocessing.ipynb<br>
+* <a href="https://github.com/adityahpatel/Capstone/blob/main/Module3_Step2_Bounce_detector_preprocessing.ipynb">Module3_Step2_Bounce_detector_preprocessing.ipynb</a><br>
     * Extracts the ball coordinates from each of the thousands of text files corresponding to individual image and pushes them to a new csv file called model2_inputdata.csv
-* Module3_Step3_Bounce_detector_final.ipynb<br>
+* <a href="https://github.com/adityahpatel/Capstone/blob/main/Module3_Step3_Bounce_detector_final.ipynb">Module3_Step3_Bounce_detector_final.ipynb</a><br>
     * Takes as input the model2_inputdata.csv created in the previous step and performs bounce detection. i.e. given a window of 10 frames, predicts whether a ball bounce occured in that window or not!
-
-
-
-## Notebooks: Machine Learning Pipeline
-
-* <a href="https://github.com/adityahpatel/milestone2_dating_and_beauty/blob/main/00_EDA%2BFeature_Engineering_ML_pipeline.ipynb">00_EDA+Feature_Engineering_ML_pipeline</a>
-* <a href="https://github.com/adityahpatel/milestone2_dating_and_beauty/blob/main/01_Unsupervised_PCA_ML_pipeline.ipynb">01_Unsupervised_PCA_ML_pipeline</a>
-* <a href="https://github.com/adityahpatel/milestone2_dating_and_beauty/blob/main/02_Unsupervised_BOVF_ML_pipeline.ipynb">02_Unsupervised_BOVF_ML_pipeline</a>
-* <a href="https://github.com/adityahpatel/milestone2_dating_and_beauty/blob/main/03_Supervised_Classification_ML_pipeline.ipynb">03_Supervised_Classification_ML_pipeline</a>
-* <a href="https://github.com/adityahpatel/milestone2_dating_and_beauty/blob/main/04_Failure_Analysis_BOVW_clustering.ipynb">04_Failure_Analysis_BOVW_clustering</a>
-
-## Notebooks: Convolutional Neural Network
-* <a href="https://github.com/adityahpatel/milestone2_dating_and_beauty/blob/main/CNN/cnn_v3.ipynb">CNN_v3</a>
-* <a href="https://github.com/adityahpatel/milestone2_dating_and_beauty/blob/main/CNN/cnn4_colab.ipynb">CNN4_colab</a>
-* <a href="https://github.com/adityahpatel/milestone2_dating_and_beauty/blob/main/CNN/VGGFeatureExtractor.ipynb">VGGFeatureExtractor</a>
