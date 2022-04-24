@@ -19,14 +19,12 @@ Extract all frames from these videos <br>
 * We will next use the *labelimg* tool to create the tennis ball bounding box coordinate text files per image file. We will select 126 images per video for a total of 1008 images across 8 tennis videos. We will need to ensure a ratio of 1:2 for images where the tennis ball is in the front end of the court to images where the tennis ball is in the far end of the court. This will ensure sufficient sample of small tennis ball images at far end of the court for the Object Detection Model to learn from. We will also create smaller sets of 504 and 256 images by reducing the number of images proportionately to evaluate if smaller image sets perform as well as larger image set while detection objects.
 
 ### Module 2: Object (tennis ball) Detection
-* <a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step1a_Annotated_Images_proam_256_original%2Blabeled_aug.ipynb![image](https://user-images.githubusercontent.com/32350477/164958214-c9d851e7-b744-43fc-be10-dec02db944d8.png)
-">Module2_Step1a_Annotated_Images_proam_256_original+labeled_aug.ipynb![image](https://user-images.githubusercontent.com/32350477/164958248-1927423c-21e8-4625-bf14-7b010904598c.png)
-</a> <br>
-
+* <a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step1a_Annotated_Images_proam_256_original%2Blabeled_aug.ipynb![
+">Module2_Step1a_Annotated_Images_proam_256_original+labeled_aug.ipynb</a> <br>
 <a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step1b_Annotated_Images_proam_504_original%2Blabeled_aug.ipynb![image](https://user-images.githubusercontent.com/32350477/164958306-ae91f521-9930-48c7-a63b-9855da5944ad.png)
-">Module2_Step1b_Annotated_Images_proam_504_original%2Blabeled_aug.ipynb </a> <br>
-
-Module2_Step1b_Annotated_Images_proam_504_original+labeled_aug.ipynb, Module2_Step1c_Annotated_Images_proam_1008_original+labeled_aug.ipynb<br>
+">Module2_Step1b_Annotated_Images_proam_504_original+labeled_aug.ipynb </a> <br>
+<a href="https://github.com/adityahpatel/Capstone/blob/main/Module2_Step1c_Annotated_Images_proam_1008_original%2Blabeled_aug.ipynb![image](https://user-images.githubusercontent.com/32350477/164958464-6ef7e136-7580-4d13-8a72-49c721ee22f4.png)
+">Module2_Step1c_Annotated_Images_proam_1008_original+labeled_aug.ipynb</a><br>
     * Augment the images sets of 256, 504 and 1008 original images to 887, 1764 and 3525 original + augmented images respectively<br><br>
 * Module2_Step2b_Custom_training_YOLOv4-tiny_proam_256_labeledaug3x.ipynb,<br> Module2_Step2d_Custom_training_YOLOv4-tiny_proam_504_labeledaug3x.ipynb,<br> Module2_Step2e_Custom_training_YOLOv4-tiny_proam_1008_labeledaug3x.ipynb,<br> Module2_Step2g_Custom_training_YOLOv4-tiny_proam_1008_labeledaug3x_1664res.ipynb
     * Train YOLOv4-tiny object detection model on all 3 original +augmented images set.
