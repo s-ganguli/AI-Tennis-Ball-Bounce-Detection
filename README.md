@@ -1,4 +1,4 @@
-# Capstone (a Deep Learning Project)
+# Capstone (a Deep Learning and Computer Vision Project)
 # AI Ball Bounce Detector
 By Aditya Patel and Sharadwata Ganguli
 
